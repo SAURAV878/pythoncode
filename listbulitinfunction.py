@@ -1,0 +1,22 @@
+laptops = ['dell', 'hp', 'sony', 'lenovo', 'mac']
+laptops.append('microsoft')
+print(laptops)
+laptops.insert(2, 'microsoft')
+print(laptops)
+laptops.remove("dell")
+print(laptops)
+removed_element = laptops.pop(2)
+print(removed_element)
+print(laptops)
+
+a=[1,2,3,4,5,6]
+a.extend(laptops)
+print(a)
+a.append('microsoft')
+print(a)
+count = laptops.count('hp')
+print(count)
+copy_list = laptops.copy()
+print("this is an orginal list" ,laptops)
+print("this is a copy list" ,copy_list)
+print(copy_list.clear())
